@@ -1,13 +1,11 @@
+/*
+Copyright © 2024 NAME HERE <EMAIL ADDRESS>
+
+*/
 package main
 
-import (
-	"aofattaporn/golang-guild/internal/section2"
-	"fmt"
-)
+import "aofattaporn/golang-guild/cmd"
 
 func main() {
-
-	section2.Test = "Test Hello secttion 2"
-	fmt.Println(section2.Test)
-
+	cmd.Execute()
 }
